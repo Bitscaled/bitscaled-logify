@@ -1,6 +1,7 @@
 # Bitscaled Logger
 
-![Bitscaled Logger Logo](https://via.placeholder.com/150?text=Bitscaled+Logger)
+![bitscaled-logger-logo](https://github.com/user-attachments/assets/08010dd8-7773-43b6-962e-feb3890ff079)
+
 
 ## Overview
 
