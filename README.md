@@ -1,6 +1,6 @@
 # Bitscaled Logger
 
-![svgviewer-output (5)](https://github.com/user-attachments/assets/bb16b07e-c510-4799-bb18-e3a2d8703229)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+![svgviewer-output (5)](https://github.com/user-attachments/assets/bb16b07e-c510-4799-bb18-e3a2d8703229)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
