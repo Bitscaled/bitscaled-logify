@@ -1,6 +1,35 @@
 # Bitscaled Logger
 
-![bitscaled-logger-logo](https://github.com/user-attachments/assets/08010dd8-7773-43b6-962e-feb3890ff079)
+![svgviewer-output (5)](https://github.com/user-attachments/assets/bb16b07e-c510-4799-bb18-e3a2d8703229)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3474c4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" fill="url(#bgGradient)" rx="20" ry="20"/>
+  
+  <!-- Main text -->
+  <text x="100" y="85" font-family="Rasheeq" font-size="80" fill="white" text-anchor="middle" dominant-baseline="central">BIT</text>
+  
+  <!-- Subtext -->
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" dominant-baseline="central">LOGIFY</text>
+  
+  <!-- Log lines -->
+  <g stroke="white" stroke-linecap="round">
+    <path d="M40 160 L160 160" stroke-width="8" opacity="0.8"/>
+    <path d="M60 175 L140 175" stroke-width="6" opacity="0.6"/>
+    <path d="M80 185 L120 185" stroke-width="4" opacity="0.4"/>
+  </g>
+  
+  <!-- Binary overlay -->
+  <text x="20" y="30" font-family="Courier, monospace" font-size="10" fill="white" opacity="0.1">
+    01001100 01001111 01000111
+  </text>
+</svg>
+
 
 
 ## Overview
