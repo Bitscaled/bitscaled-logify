@@ -1,4 +1,4 @@
-![bitscaled-logger-logo (3)](https://github.com/user-attachments/assets/17204811-5b39-4b9f-a84c-98a0e7dbb331)![bitscaled-logify-logo](https://github.com/user-attachments/assets/81abbaf1-e6c8-4dc2-b275-bbc93fdf14a5)
+![bitscaled-logify-logo](https://github.com/user-attachments/assets/81abbaf1-e6c8-4dc2-b275-bbc93fdf14a5)
 
 
 ## Overview
