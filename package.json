@@ -1,0 +1,24 @@
+{
+  "name": "bitscaled-logify",
+  "version": "1.0.0",
+  "description": "A comprehensive logging and error handling library for Next.js applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "next build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["nextjs", "logging", "error-handling", "bitscaled"],
+  "author": "Bitscaled",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=14.2.5",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.5.0"
+  }
+}
