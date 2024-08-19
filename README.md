@@ -1,4 +1,34 @@
-![bitscaled-logify-logo](https://github.com/user-attachments/assets/81abbaf1-e6c8-4dc2-b275-bbc93fdf14a5)
+![bitscaled-logger-logo (3)](https://github.com/user-attachments/assets/94d5860e-1dac-4845-956b-423380c46dba)
+![Uploading bi<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3474c4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect x="4" y="4" width="72" height="72" fill="url(#bgGradient)" rx="8" ry="8"/>
+  
+  <!-- Main text -->
+  <text x="40" y="34" font-family="Arial Black, sans-serif" font-size="20" fill="white" text-anchor="middle" dominant-baseline="central">BIT</text>
+  
+  <!-- Subtext -->
+  <text x="40" y="52" font-family="Arial, sans-serif" font-size="9.6" fill="white" text-anchor="middle" dominant-baseline="central">LOGIFY</text>
+  
+  <!-- Log lines -->
+  <g stroke="white" stroke-linecap="round">
+    <path d="M16 64 L64 64" stroke-width="3.2" opacity="0.8"/>
+    <path d="M24 70 L56 70" stroke-width="2.4" opacity="0.6"/>
+    <path d="M32 74 L48 74" stroke-width="1.6" opacity="0.4"/>
+  </g>
+  
+  <!-- Binary overlay -->
+  <text x="8" y="12" font-family="Courier, monospace" font-size="4" fill="white" opacity="0.1">
+    01001100 01001111 01000111
+  </text>
+</svg>
+tscaled-logger-logo (3).svg…]()
 
 
 ## Overview
