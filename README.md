@@ -1,5 +1,5 @@
-![bitscaled-logger-logo (3)](https://github.com/user-attachments/assets/94d5860e-1dac-4845-956b-423380c46dba)
-![Uploading bi<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+![bitscaled-logger-logo (3)](https://github.com/user-attachments/assets/0252d753-71be-47fe-9002-7d1ca482af39)
+![Upload<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
@@ -28,7 +28,7 @@
     01001100 01001111 01000111
   </text>
 </svg>
-tscaled-logger-logo (3).svg…]()
+ing bitscaled-logger-logo (3).svg…]()
 
 
 ## Overview
