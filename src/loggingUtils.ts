@@ -134,7 +134,7 @@ export const logDebug = (
   }
 };
 
-// ... (keep other existing functions like logCookie, logRequest, logAllCookies)
+// need to add these again (functions like logCookie, logRequest, logAllCookies)
 
 export const createLoggedResponse = (
   statusCode: number,
