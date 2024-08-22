@@ -74,15 +74,20 @@ const extractApiErrorMetadata = (req: NextRequest): ApiErrorMetadata => {
  * @returns A wrapped handler function with error handling.
  */
 export const withApiErrorHandling = (
-  FILE_NAME: string,
+  fileName: string,
   functionName: string,
+  defaultErrorCode: ErrorCode,
   handler: (req: NextRequest, context?: any) => Promise<NextResponse>
 ) => {
   return async (req: NextRequest, context?: any) => {
     try {
       return await handler(req, context);
     } catch (error) {
-      return handleApiError(error, req);
+      if (isCustomError(error)) {
+        return handleApiError(error, req);
+      }
+      const customError = createCustomError(defaultErrorCode, 500, getErrorMessage(error));
+      return handleApiError(customError, req);
     }
   };
 };
@@ -90,9 +95,10 @@ export const withApiErrorHandling = (
 /**
  * Creates a custom API error and throws it.
  * @param code - The error code.
+ * @param message - The error message.
  * @param statusCode - The HTTP status code (optional, default is 500).
  * @throws CustomError
  */
-export const throwApiError = (code: ErrorCode, statusCode?: number): never => {
-  throw createCustomError(code, statusCode);
+export const throwApiError = (code: ErrorCode, message: string, statusCode: number = 500): never => {
+  throw createCustomError(code, statusCode, message);
 };
